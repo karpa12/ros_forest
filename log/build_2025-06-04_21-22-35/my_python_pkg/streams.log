@@ -1,0 +1,25 @@
+[0.618s] Invoking command in '/home/ros2/ros2_ws/src/my_python_pkg': PYTHONPATH=/home/ros2/ros2_ws/src/my_python_pkg/build/my_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/src/my_python_pkg/install/my_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/my_python_pkg build --build-base /home/ros2/ros2_ws/src/my_python_pkg/build/my_python_pkg/build install --record /home/ros2/ros2_ws/src/my_python_pkg/build/my_python_pkg/install.log --single-version-externally-managed install_data
+[0.841s] running egg_info
+[0.842s] writing build/my_python_pkg/my_python_pkg.egg-info/PKG-INFO
+[0.842s] writing dependency_links to build/my_python_pkg/my_python_pkg.egg-info/dependency_links.txt
+[0.842s] writing entry points to build/my_python_pkg/my_python_pkg.egg-info/entry_points.txt
+[0.842s] writing requirements to build/my_python_pkg/my_python_pkg.egg-info/requires.txt
+[0.842s] writing top-level names to build/my_python_pkg/my_python_pkg.egg-info/top_level.txt
+[0.843s] reading manifest file 'build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[0.843s] writing manifest file 'build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[0.844s] running build
+[0.844s] running build_py
+[0.844s] copying my_python_pkg/talker.py -> /home/ros2/ros2_ws/src/my_python_pkg/build/my_python_pkg/build/lib/my_python_pkg
+[0.844s] running install
+[0.845s] running install_lib
+[0.845s] copying /home/ros2/ros2_ws/src/my_python_pkg/build/my_python_pkg/build/lib/my_python_pkg/talker.py -> /home/ros2/ros2_ws/src/my_python_pkg/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg
+[0.846s] byte-compiling /home/ros2/ros2_ws/src/my_python_pkg/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg/talker.py to talker.cpython-310.pyc
+[0.847s] running install_data
+[0.847s] running install_egg_info
+[0.849s] removing '/home/ros2/ros2_ws/src/my_python_pkg/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.849s] Copying build/my_python_pkg/my_python_pkg.egg-info to /home/ros2/ros2_ws/src/my_python_pkg/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg-0.0.0-py3.10.egg-info
+[0.851s] running install_scripts
+[0.873s] Installing listener script to /home/ros2/ros2_ws/src/my_python_pkg/install/my_python_pkg/lib/my_python_pkg
+[0.873s] Installing talker script to /home/ros2/ros2_ws/src/my_python_pkg/install/my_python_pkg/lib/my_python_pkg
+[0.874s] writing list of installed files to '/home/ros2/ros2_ws/src/my_python_pkg/build/my_python_pkg/install.log'
+[0.903s] Invoked command in '/home/ros2/ros2_ws/src/my_python_pkg' returned '0': PYTHONPATH=/home/ros2/ros2_ws/src/my_python_pkg/build/my_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/src/my_python_pkg/install/my_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/my_python_pkg build --build-base /home/ros2/ros2_ws/src/my_python_pkg/build/my_python_pkg/build install --record /home/ros2/ros2_ws/src/my_python_pkg/build/my_python_pkg/install.log --single-version-externally-managed install_data
