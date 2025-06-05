@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'talker = my_python_pkg.talker:main',
-            'listener = my_python_pkg.listener:main',
+            'keyboard_control = my_python_pkg.keyboard_control:main',
+            'motor_driver = my_python_pkg.motor_driver:main',
         ],
     },
 )
